@@ -157,8 +157,12 @@ img {
     .steps .col {
         width: 100%;
     }
-    .steps .col {
-        width: calc(100% / 3);
+    .steps .col img {
+     
+        max-width: 100%;
+    }
+    img {
+        max-width: 100%;
     }
 
 }

@@ -160,10 +160,19 @@ img {
     .steps .col {
         width: 100%;
     }
-    .steps .col {
-        width: calc(100% / 3);
+   
+    .steps .col img {
+        height: 200px;
+        margin-bottom: 1rem;
+        max-width: 100%;
     }
-
+    .steps .col img {
+     
+        max-width: 100%;
+    }
+    img {
+        max-width: 100%;
+    }
 }
 @media all and (max-width: 1160px) {
     .container {
