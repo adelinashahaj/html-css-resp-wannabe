@@ -132,6 +132,8 @@ img {
     .container {
         width: 100%;
     }
+   
+   
 }
 
 @media all and (max-width: 480px) {
@@ -141,6 +143,7 @@ img {
 
     .row {
         display: inline-block;
+        width: 100%;
     }
 
     .why-us .col-left {
@@ -162,5 +165,10 @@ img {
     }
 
 }
-
+@media all and (max-width: 1160px) {
+    .container {
+        max-width: 100%;
+    }
+}
+    
     
